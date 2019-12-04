@@ -13,11 +13,11 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
 ***************************************************************************** */
-import { ObservableArray } from "data/observable-array";
-import { CSSType, CoercibleProperty, EventData, Property, View, makeParser, makeValidator } from "ui/core/view";
-import { addWeakEventListener, removeWeakEventListener } from "ui/core/weak-event-listener";
-import { ItemsSource } from "ui/list-picker";
-import { TextAlignment } from "ui/text-base";
+import { ObservableArray } from "tns-core-modules/data/observable-array";
+import { CSSType, CoercibleProperty, EventData, Property, View, makeParser, makeValidator } from "tns-core-modules/ui/core/view";
+import { addWeakEventListener, removeWeakEventListener } from "tns-core-modules/ui/core/weak-event-listener";
+import { ItemsSource } from "tns-core-modules/ui/list-picker";
+import { TextAlignment } from "tns-core-modules/ui/text-base";
 import * as types from "utils/types";
 import { DropDown as DropDownDefinition, SelectedIndexChangedEventData, ValueItem, ValueList as ValueListDefinition } from ".";
 
