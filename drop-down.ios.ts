@@ -14,10 +14,10 @@ See the License for the specific language governing permissions and
 limitations under the License.
 ***************************************************************************** */
 import { Color } from "color";
-import { placeholderColorProperty } from "ui/editable-text-base/editable-text-base";
-import { ItemsSource } from "ui/list-picker";
-import { Font } from "ui/styling/font";
-import { Style } from "ui/styling/style";
+import { placeholderColorProperty } from "tns-core-modules/ui/editable-text-base/editable-text-base";
+import { ItemsSource } from "tns-core-modules/ui/list-picker";
+import { Font } from "tns-core-modules/ui/styling/font";
+import { Style } from "tns-core-modules/ui/styling/style";
 import {
     TextAlignment,
     TextDecoration,
@@ -26,7 +26,7 @@ import {
     textAlignmentProperty,
     textDecorationProperty,
     textTransformProperty
-} from "ui/text-base";
+} from "tns-core-modules/ui/text-base";
 import * as types from "utils/types";
 import * as utils from "utils/utils";
 import { SelectedIndexChangedEventData } from ".";
